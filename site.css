@@ -12,7 +12,7 @@ main h1 {
 	text-align: center;
 	background-color: #851944;
 	color: #FFF;
-	padding: 20px;
+	padding: 25px;
 	margin: 0px;
 }
 
@@ -22,7 +22,7 @@ p {
 
 blockquote {
 	background-color: #D9E5E3;
-	padding: 16px;
+	padding: 20px;
 	border: 8px solid #c2ccca;
 	width: 250px;
 	margin: 0px;
@@ -32,11 +32,13 @@ blockquote {
 aside {
 	background-color: #3C1D3D;
 	color: #F2FFFC;
+	padding: 20px;
 }
 
 footer {
 	background-color: #000;
 	color: #F2FFFC;
+	padding: 20px;
 }
 
 nav a {
@@ -50,4 +52,9 @@ main a {
 aside a {
 	color: inherit;
 	font-family: "Open Sans Condensed", sans-serif;
+}
+
+div {
+	width: 720px;
+	margin: auto;
 }
