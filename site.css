@@ -2,6 +2,7 @@ body {
 	font-family: "Crimson Text", "Times New Roman", serif;
 	background-color: #F2FFFC;
 	font-size: 120%;
+	line-height: 1.5;
 }
 
 h1, h2 {
@@ -33,6 +34,7 @@ aside {
 	background-color: #3C1D3D;
 	color: #F2FFFC;
 	padding: 20px;
+	text-align: center;
 }
 
 footer {
