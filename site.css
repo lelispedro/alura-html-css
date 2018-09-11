@@ -37,7 +37,7 @@ blockquote {
 	box-sizing: border-box;
 }
 
-footer {
+.rodape {
 	background-color: #000;
 	color: #F2FFFC;
 	padding: 20px;
@@ -51,23 +51,23 @@ main a {
 	color: #851944;
 }
 
-aside {
+.navegacao-site {
 	background-color: #3C1D3D;
 	color: #F2FFFC;
 	padding: 20px;
 	text-align: center;
 }
 
-aside a {
+.navegacao-site a {
 	color: inherit;
 	font-family: "Open Sans Condensed", sans-serif;
 }
 
-aside li {
+.icones-sociais li {
 	display: inline-block;
 }
 
-aside h1 {
+.navegacao-site h1 {
 	font-size: 30px;
 	margin-bottom: 25px;
 }
@@ -87,4 +87,19 @@ strong {
 
 em {
 	font-style: italic;
+}
+
+article {
+	padding-bottom: 30px;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 20px;
+}
+
+.leia-mais {
+	padding: 8px;
+	margin-bottom: 16px;
+	display: block;
+	font-size: 24px;
+	text-align: center;
+	background-color: #e6e7e8;
 }
