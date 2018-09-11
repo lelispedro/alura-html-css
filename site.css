@@ -19,6 +19,10 @@ main h1 {
 	font-size: 60px; 
 }
 
+h2 {
+	font-size: 30px;
+}
+
 p {
 	text-align: justify;
 	margin: 20px 0;
@@ -31,13 +35,6 @@ blockquote {
 	width: 250px;
 	margin: 20px 40px;
 	box-sizing: border-box;
-}
-
-aside {
-	background-color: #3C1D3D;
-	color: #F2FFFC;
-	padding: 20px;
-	text-align: center;
 }
 
 footer {
@@ -54,19 +51,30 @@ main a {
 	color: #851944;
 }
 
+aside {
+	background-color: #3C1D3D;
+	color: #F2FFFC;
+	padding: 20px;
+	text-align: center;
+}
+
 aside a {
 	color: inherit;
 	font-family: "Open Sans Condensed", sans-serif;
 }
 
-div {
-	width: 720px;
-	margin: auto;
+aside li {
+	display: inline-block;
 }
 
 aside h1 {
 	font-size: 30px;
 	margin-bottom: 25px;
+}
+
+div {
+	width: 720px;
+	margin: auto;
 }
 
 main div {
@@ -79,8 +87,4 @@ strong {
 
 em {
 	font-style: italic;
-}
-
-h2 {
-	font-size: 30px;
 }
