@@ -16,11 +16,13 @@ main h1 {
 	padding: 25px;
 	margin: 0px;
 	border-bottom: 10px solid #000000;
-	font-size: 60px; 
+	font-size: 60px;
+	text-transform: uppercase;
 }
 
 h2 {
 	font-size: 30px;
+	clear: both;
 }
 
 p {
@@ -37,14 +39,29 @@ blockquote {
 	box-sizing: border-box;
 }
 
+.fiat{
+	float: right;
+}
+
+.petrobras{
+	float: left;
+}
+
+cite {
+	text-align: right;
+	font-style: italic;
+}
+
 .rodape {
 	background-color: #000;
 	color: #F2FFFC;
 	padding: 20px;
+	clear: both;
 }
 
 nav a {
 	color: #F2FFFC;
+	text-transform: lowercase;
 }
 
 main a {
@@ -56,6 +73,19 @@ main a {
 	color: #F2FFFC;
 	padding: 20px;
 	text-align: center;
+}
+
+main {
+	float: left;
+	width: 85%;
+}
+
+.navegacao-site, .minha-foto {
+	float: right;
+	width: 15%;
+	box-sizing: border-box;
+	border-left: 10px solid black;
+	border-bottom: 10px solid black;
 }
 
 .navegacao-site a {
@@ -102,4 +132,23 @@ article {
 	font-size: 24px;
 	text-align: center;
 	background-color: #e6e7e8;
+}
+
+.icones-sociais a{
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	text-indent: -9999px;
+}
+
+.github {
+	background-image: url(github.png);
+}
+
+.twitter {
+	background-image: url(twitter.png);
+}
+
+.linkedin {
+	background-image: url(linkedin.png);
 }
