@@ -1,7 +1,7 @@
 body {
 	font-family: "Crimson Text", "Times New Roman", serif;
 	background-color: #F2FFFC;
-	font-size: 120%;
+	font-size: 100%;
 	line-height: 1.5;
 }
 
@@ -57,6 +57,9 @@ cite {
 	color: #F2FFFC;
 	padding: 20px;
 	clear: both;
+	position: fixed;
+	width: 100%;
+	bottom: 0;
 }
 
 nav a {
@@ -73,19 +76,28 @@ main a {
 	color: #F2FFFC;
 	padding: 20px;
 	text-align: center;
+	width: 15%;
+	position: relative;
+	top: 310px; 
 }
 
 main {
 	float: left;
 	width: 85%;
+	padding-bottom: 80px;
 }
 
 .navegacao-site, .minha-foto {
 	float: right;
-	width: 15%;
 	box-sizing: border-box;
 	border-left: 10px solid black;
 	border-bottom: 10px solid black;
+}
+
+.minha-foto {
+	position: absolute;
+	top: 0;
+	right: 0;
 }
 
 .navegacao-site a {
